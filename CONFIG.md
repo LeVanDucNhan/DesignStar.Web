@@ -1,29 +1,65 @@
-# CONFIG - Bạn chỉ cần sửa 1 lần
+# CONFIG – DesignStar.exe (Trial 15 ngày / License Key)
 
-Bạn mở file này và sửa các chỗ có __...__ rồi lưu lại.
+## 1) Link tải phần mềm (GitHub Releases)
 
-## 1) Link tải (GitHub Releases)
+Phần mềm chỉ có **1 file cài đặt duy nhất**:
+- Dùng thử 15 ngày
+- Sau khi mua → nhập License Key để mở Full
+- KHÔNG có bản Full installer riêng
 
-- __TRIAL_DOWNLOAD_URL__  : link tải bản Trial
-- __FULL_DOWNLOAD_URL__   : link tải bản Full (hoặc để giống Trial nếu bạn chỉ phát hành 1 bản)
+Repository:
+- https://github.com/LeVanDucNhan/DesignStar
 
-Ví dụ (sau này bạn thay bằng repo của bạn):
-- https://github.com/<user>/<repo>/releases/latest/download/TowerDraft-Trial-Setup.exe
+File phát hành:
+- DesignStar.exe
 
-## 2) Link mua (Checkout)
+Link tải (luôn lấy bản mới nhất):
 
-- __BUY_URL_STANDARD__
-- __BUY_URL_PRO__
-- __PRICE_STANDARD__
-- __PRICE_PRO__
+TRIAL DOWNLOAD:
+https://github.com/LeVanDucNhan/DesignStar/releases/latest/download/DesignStar.exe
 
-## 3) Thông tin liên hệ
+FULL DOWNLOAD:
+https://github.com/LeVanDucNhan/DesignStar/releases/latest/download/DesignStar.exe
 
-- __ZALO__
-- __EMAIL__
 
-## 4) Tên phần mềm / mô tả
+## 2) Mua bản quyền (License Key)
 
-Bạn có thể sửa trong:
-- index.html (headline + mô tả)
-- assets/styles.css (màu sắc nếu muốn)
+Người dùng mua xong sẽ nhận:
+- License Key
+- Hướng dẫn nhập key trong phần mềm
+
+Gói sử dụng:
+
+STANDARD:
+https://designstar.lemonsqueezy.com/checkout/standard
+
+PRO:
+https://designstar.lemonsqueezy.com/checkout/standard
+
+
+## 3) Giá bán
+
+STANDARD:
+990.000₫ / 1 máy
+
+PRO:
+Liên hệ
+
+
+## 4) Thông tin liên hệ & hỗ trợ
+
+Zalo:
+0903829816
+
+Email:
+support@designstar.vn
+
+
+## 5) Quy trình cho người dùng (DesignStar.exe)
+
+1. Vào website → Tải DesignStar.exe
+2. Cài đặt → Mở phần mềm
+3. Dùng thử 15 ngày
+4. Khi cần mua → bấm “Mua bản quyền” trên website
+5. Nhận License Key qua email
+6. Mở DesignStar → Nhập License Key → Kích hoạt
