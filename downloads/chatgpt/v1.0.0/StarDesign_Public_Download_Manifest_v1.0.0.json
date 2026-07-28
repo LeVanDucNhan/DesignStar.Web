@@ -1,0 +1,43 @@
+﻿{
+    "product":  "StarDesign",
+    "version":  "1.0.0",
+    "releaseDate":  "2026-07-28",
+    "channel":  "ChatGPT pilot",
+    "primaryArtifact":  {
+                            "fileName":  "DesignStar_Server_v1.0.0.zip",
+                            "sha256":  "d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046",
+                            "sizeBytes":  40924312,
+                            "downloadUrl":  "./DesignStar_Server_v1.0.0.zip",
+                            "checksumUrl":  "./DesignStar_Server_v1.0.0_checksum.sha256"
+                        },
+    "publishKit":  {
+                       "fileName":  "StarDesign_ChatGPT_Publish_Kit_20260728.zip",
+                       "sha256":  "960bddf21cd7e81a76c2bf6f77a0037972c8898a07f3f9f33945e98a841f9bf6",
+                       "sizeBytes":  40850640,
+                       "fileCount":  36,
+                       "downloadUrl":  "./StarDesign_ChatGPT_Publish_Kit_20260728.zip",
+                       "checksumUrl":  "./StarDesign_ChatGPT_Publish_Kit_20260728_checksum.sha256"
+                   },
+    "localApi":  {
+                     "defaultBaseUrl":  "http://localhost:5289",
+                     "healthPath":  "/healthz",
+                     "openApiPath":  "/openapi.yaml",
+                     "privacyPath":  "/privacy",
+                     "chatGptActionImportUrl":  "https://\u003ccurrent-tunnel\u003e.trycloudflare.com/openapi.yaml"
+                 },
+    "minimumGoLiveChecks":  [
+                                "Install.bat custom-root smoke passed",
+                                "CheckEnv.bat custom-root smoke passed",
+                                "API Release x64 localhost smoke passed",
+                                "Cloudflare quick tunnel smoke passed",
+                                "OpenAPI static lint passed",
+                                "OpenAPI dynamic server smoke passed",
+                                "License/token/redeem POST action smoke passed"
+                            ],
+    "knownLimits":  [
+                        "Real ProgramData install still needs Administrator/UAC outside Codex",
+                        "Cloudflare quick tunnel URL is temporary",
+                        "AutoCAD plugin registration/NETLOAD still needs real AutoCAD machine test",
+                        "jobs/beam returns AgentNotOnline until a matching Agent is running"
+                    ]
+}

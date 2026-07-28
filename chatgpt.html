@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>StarDesign ChatGPT Pilot</title>
+    <meta name="description" content="Tải StarDesign ChatGPT Pilot: installer, publish kit, checksum, hướng dẫn cài đặt và kết nối ChatGPT Actions." />
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <div class="container">
+
+        <div class="nav">
+            <a class="brand" href="index.html">
+                <div class="logo" aria-hidden="true"></div>
+                <span>DesignStar</span>
+            </a>
+            <div class="navlinks">
+                <a href="index.html">Trang chủ</a>
+                <a href="download.html">Tải về</a>
+                <a href="chatgpt.html" style="color:var(--text);border-color:var(--border);background:rgba(255,255,255,.04)">ChatGPT Pilot</a>
+                <a href="pricing.html">Giá & Mua</a>
+                <a href="support.html">Hỗ trợ</a>
+            </div>
+        </div>
+
+        <section class="hero">
+            <div class="kicker">StarDesign v1.0.0</div>
+            <h1>StarDesign ChatGPT Pilot</h1>
+            <p>
+                Bộ cài thử nghiệm để người dùng thật cài StarDesign desktop, chạy Local API,
+                kết nối ChatGPT Actions, dùng trial/license token và kiểm tra workflow AutoCAD BEAM.
+            </p>
+
+            <div class="btnrow">
+                <a class="btn primary" href="downloads/chatgpt/v1.0.0/DesignStar_Server_v1.0.0.zip">
+                    Tải installer
+                </a>
+                <a class="btn" href="downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728.zip">
+                    Tải publish kit
+                </a>
+            </div>
+
+            <div class="notice" style="margin-top:14px">
+                ChatGPT không chạy thay desktop StarDesign. Ứng dụng desktop vẫn là sản phẩm chính;
+                ChatGPT dùng để hướng dẫn, hỗ trợ, phát trial/license token và điều phối API local.
+            </div>
+        </section>
+
+        <section style="margin-top:18px">
+            <h2>File phát hành</h2>
+            <table class="table">
+                <tr>
+                    <th>File</th>
+                    <th>SHA256</th>
+                </tr>
+                <tr>
+                    <td><code>DesignStar_Server_v1.0.0.zip</code></td>
+                    <td><code>d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046</code></td>
+                </tr>
+                <tr>
+                    <td><code>StarDesign_ChatGPT_Publish_Kit_20260728.zip</code></td>
+                    <td><code>960bddf21cd7e81a76c2bf6f77a0037972c8898a07f3f9f33945e98a841f9bf6</code></td>
+                </tr>
+            </table>
+
+            <div class="btnrow">
+                <a class="btn" href="downloads/chatgpt/v1.0.0/DesignStar_Server_v1.0.0_checksum.sha256">Installer checksum</a>
+                <a class="btn" href="downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728_checksum.sha256">Publish kit checksum</a>
+                <a class="btn" href="downloads/chatgpt/v1.0.0/StarDesign_Public_Download_Manifest_v1.0.0.json">Manifest</a>
+                <a class="btn" href="downloads/chatgpt/v1.0.0/StarDesign_GitHub_Release_Body_v1.0.0_Vietnamese.md">Release body</a>
+            </div>
+        </section>
+
+        <section style="margin-top:18px">
+            <h2>Cài đặt nhanh</h2>
+            <ol class="list">
+                <li>Tải <code>DesignStar_Server_v1.0.0.zip</code>.</li>
+                <li>Giải nén ZIP.</li>
+                <li>Nhấp phải <code>install\Install.bat</code> và chọn <b>Run as administrator</b>.</li>
+                <li>Chạy <code>install\CheckEnv.bat</code>.</li>
+                <li>Nếu không có dòng <code>[FAIL]</code>, máy đã sẵn sàng.</li>
+            </ol>
+        </section>
+
+        <section style="margin-top:18px">
+            <h2>AutoCAD BEAM</h2>
+            <ul class="list">
+                <li>Plugin chính cho command <code>BEAM</code>: <code>runtime\AutoCAD\CivilSoft.BeamAcad.CS.dll</code>.</li>
+                <li><code>CivilSoft.BeamAcad.VB.dll</code> được đóng kèm cho nhóm command VB phụ.</li>
+                <li>Test NETLOAD/BEAM cuối cùng vẫn cần máy có AutoCAD thật.</li>
+            </ul>
+        </section>
+
+        <section style="margin-top:18px">
+            <h2>Kết nối ChatGPT Actions</h2>
+            <ol class="list">
+                <li>Cài StarDesign và chạy Local API tại <code>http://localhost:5289</code>.</li>
+                <li>Chạy script <code>run_all_build_api_cloudflare.bat</code> trong publish kit để lấy URL tunnel.</li>
+                <li>Trong GPT Builder, import Actions từ URL dạng <code>https://*.trycloudflare.com/openapi.yaml</code>.</li>
+                <li>Dùng privacy policy từ endpoint <code>/privacy</code>.</li>
+            </ol>
+        </section>
+
+        <div class="footer small">
+            <div>© <span data-year></span> DesignStar. All rights reserved.</div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <a class="kicker" href="terms.html">Terms</a>
+                <a class="kicker" href="privacy.html">Privacy</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="assets/app.js"></script>
+</body>
+</html>

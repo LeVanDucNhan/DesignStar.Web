@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Táº£i StarDesign v1.0.0</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #17202a;
+      background: #f5f7fa;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 34px 22px 54px;
+      background: #fff;
+      min-height: 100vh;
+    }
+    h1 { font-size: 30px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 28px 0 10px; border-bottom: 1px solid #d7dee8; padding-bottom: 6px; }
+    p, li { font-size: 15px; }
+    code {
+      background: #eef2f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+    .note {
+      border-left: 4px solid #2f80ed;
+      background: #eef7ff;
+      padding: 12px 14px;
+      margin: 18px 0;
+    }
+    .download {
+      display: inline-block;
+      padding: 10px 14px;
+      border: 1px solid #1f6feb;
+      color: #0b4fb3;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    table { border-collapse: collapse; width: 100%; margin: 12px 0 18px; }
+    th, td { border: 1px solid #d7dee8; padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: #f0f3f7; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Táº£i StarDesign v1.0.0</h1>
+  <p>Báº£n phÃ¡t hÃ nh thá»­ nghiá»‡m phá»¥c vá»¥ cÃ i Ä‘áº·t StarDesign desktop, StarDesign Local API, Agent, AutoCAD beam plugin vÃ  káº¿t ná»‘i ChatGPT Actions.</p>
+
+  <div class="note">
+    ChatGPT khÃ´ng cháº¡y thay toÃ n bá»™ StarDesign desktop. StarDesign desktop váº«n lÃ  sáº£n pháº©m chÃ­nh; ChatGPT dÃ¹ng Ä‘á»ƒ hÆ°á»›ng dáº«n, há»— trá»£, kÃ­ch hoáº¡t trial/license vÃ  Ä‘iá»u phá»‘i API local.
+  </div>
+
+  <h2>File táº£i chÃ­nh</h2>
+  <p><a class="download" href="./DesignStar_Server_v1.0.0.zip">Táº£i DesignStar_Server_v1.0.0.zip</a></p>
+  <table>
+    <tr><th>File</th><td><code>DesignStar_Server_v1.0.0.zip</code></td></tr>
+    <tr><th>SHA256</th><td><code>d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046</code></td></tr>
+    <tr><th>Dung lÆ°á»£ng</th><td>40,924,269 bytes</td></tr>
+  </table>
+
+  <h2>CÃ i Ä‘áº·t nhanh</h2>
+  <ol>
+    <li>Giáº£i nÃ©n <code>DesignStar_Server_v1.0.0.zip</code>.</li>
+    <li>Nháº¥p pháº£i <code>install\Install.bat</code> vÃ  chá»n <code>Run as administrator</code>.</li>
+    <li>Cháº¡y <code>install\CheckEnv.bat</code>.</li>
+    <li>Náº¿u khÃ´ng cÃ³ dÃ²ng <code>[FAIL]</code>, mÃ¡y Ä‘Ã£ sáºµn sÃ ng cháº¡y StarDesign Local API.</li>
+  </ol>
+
+  <h2>Káº¿t ná»‘i ChatGPT</h2>
+  <ol>
+    <li>Cháº¡y <code>run_all_build_api_cloudflare.bat</code> trÃªn mÃ¡y cÃ³ source/runtime.</li>
+    <li>Láº¥y URL dáº¡ng <code>https://&lt;random&gt;.trycloudflare.com/openapi.yaml</code>.</li>
+    <li>Trong GPT Actions, chá»n Import from URL vÃ  dÃ¡n URL Ä‘Ã³.</li>
+    <li>Privacy policy dÃ¹ng <code>https://&lt;random&gt;.trycloudflare.com/privacy</code>.</li>
+  </ol>
+
+  <h2>ÄÃ£ kiá»ƒm thá»­</h2>
+  <ul>
+    <li>API Release x64 cháº¡y OK táº¡i <code>localhost:5289</code>.</li>
+    <li>Cloudflare quick tunnel tráº£ <code>/healthz</code>, <code>/privacy</code>, <code>/openapi.yaml</code> Ä‘á»u 200.</li>
+    <li>License/token/redeem POST actions hoáº¡t Ä‘á»™ng; token redeem láº§n hai bá»‹ cháº·n Ä‘Ãºng.</li>
+    <li>OpenAPI tá»± sinh <code>servers</code> theo host tunnel hiá»‡n táº¡i.</li>
+  </ul>
+
+  <h2>Giá»›i háº¡n hiá»‡n táº¡i</h2>
+  <ul>
+    <li>CÃ i tháº­t vÃ o <code>%ProgramData%\DesignStar\ChatGPT</code> cáº§n quyá»n Administrator.</li>
+    <li>Cloudflare quick tunnel lÃ  URL táº¡m thá»i.</li>
+    <li>AutoCAD plugin registration/NETLOAD cáº§n test trÃªn mÃ¡y cÃ³ AutoCAD tháº­t.</li>
+    <li><code>/jobs/beam</code> cáº§n Agent Ä‘ang online; náº¿u chÆ°a cÃ³ Agent sáº½ bÃ¡o <code>AgentNotOnline</code>.</li>
+  </ul>
+</main>
+</body>
+</html>
+
+
+
