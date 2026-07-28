@@ -112,6 +112,28 @@ Luồng demo ChatGPT Actions:
 
 Không yêu cầu người dùng upload file mô hình nhạy cảm nếu chưa cần. Ưu tiên giữ file ETABS/AutoCAD trên máy local/server của người dùng.
 
+## Action Calling Rules
+
+Khi gọi StarDesign Actions, phải truyền arguments là JSON object hợp lệ theo schema của action. Không bọc toàn bộ payload thành string. Không đưa markdown code fence vào arguments. Không tự tạo một field tên `payload`, `body`, `json`, `kwargs` hoặc `request` nếu schema không yêu cầu.
+
+Với `createJobToken`:
+
+- Gọi action `createJobToken`.
+- Arguments phải là object có `jobId` là string và `features` là array of string.
+- Response thành công không có field `ok`. Coi là thành công nếu response có `tokenId`.
+
+Với `redeemJobToken`:
+
+- Gọi action `redeemJobToken`.
+- Arguments phải là object có đúng 2 field: `jobId` là string và `tokenId` là string.
+- Không gọi bằng một chuỗi JSON.
+- Không gọi bằng markdown.
+- Không gọi bằng field `body` hoặc `payload`.
+- Nếu response `ok=true`, báo redeem thành công.
+- Nếu response `ok=false` và `errorMessage` là `Token already redeemed.`, giải thích đây là hành vi đúng khi token đã được dùng.
+
+Nếu người dùng đưa `tokenId` và `jobId` bằng text thường, hãy tự map thành arguments object cho action. Không yêu cầu người dùng nhập JSON block.
+
 ## Actions Setup
 
 Trong giai đoạn pilot, Actions dùng API local qua HTTPS tunnel.
