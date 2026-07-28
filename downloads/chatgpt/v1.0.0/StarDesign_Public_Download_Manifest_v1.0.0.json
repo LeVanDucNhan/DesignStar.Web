@@ -5,16 +5,16 @@
     "channel":  "ChatGPT pilot",
     "primaryArtifact":  {
                             "fileName":  "DesignStar_Server_v1.0.0.zip",
-                            "sha256":  "d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046",
-                            "sizeBytes":  40924312,
+                            "sha256":  "aa3ccee410aa191a8332c3f533bebb8505fb7697d8f27177b6f542de3a47dca4",
+                            "sizeBytes":  40861824,
                             "downloadUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/DesignStar_Server_v1.0.0.zip",
                             "checksumUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/DesignStar_Server_v1.0.0_checksum.sha256"
                         },
     "publishKit":  {
                        "fileName":  "StarDesign_ChatGPT_Publish_Kit_20260728.zip",
-                       "sha256":  "0c9653e40483b23edebe94507d069cd1922b48af990b56bcefe7ebc028c5349d",
-                       "sizeBytes":  40857710,
-                       "fileCount":  40,
+                       "sha256":  "e7f9230b577afe638d627be674165bd23cca8e5d91cb5260de6b924b2b4482e4",
+                       "sizeBytes":  40777896,
+                       "fileCount": 42,
                        "downloadUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728.zip",
                        "checksumUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728_checksum.sha256"
                    },
@@ -41,3 +41,4 @@
                         "jobs/beam returns AgentNotOnline until a matching Agent is running"
                     ]
 }
+

@@ -16,13 +16,13 @@ Báº£n nÃ y chuáº©n bá»‹ StarDesign cho ngÆ°á»i dÃ¹ng tháº�
 Installer package:
 
 ```text
-d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046  DesignStar_Server_v1.0.0.zip
+aa3ccee410aa191a8332c3f533bebb8505fb7697d8f27177b6f542de3a47dca4  DesignStar_Server_v1.0.0.zip
 ```
 
 ChatGPT publish kit:
 
 ```text
-0c9653e40483b23edebe94507d069cd1922b48af990b56bcefe7ebc028c5349d  StarDesign_ChatGPT_Publish_Kit_20260728.zip
+e7f9230b577afe638d627be674165bd23cca8e5d91cb5260de6b924b2b4482e4  StarDesign_ChatGPT_Publish_Kit_20260728.zip
 ```
 
 ## ThÃ nh pháº§n chÃ­nh
@@ -71,6 +71,7 @@ ChatGPT publish kit:
 - AutoCAD plugin registration/NETLOAD cáº§n test trÃªn mÃ¡y cÃ³ AutoCAD tháº­t.
 - `/jobs/beam` cáº§n Agent Ä‘ang online; náº¿u chÆ°a cÃ³ Agent sáº½ bÃ¡o `AgentNotOnline`.
 - Backend license server chÆ°a ná»‘i; giai Ä‘oáº¡n nÃ y Æ°u tiÃªn local/tunnel demo.
+
 
 
 
