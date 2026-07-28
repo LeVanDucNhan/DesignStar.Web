@@ -22,7 +22,7 @@ d0c3f6736dcc7d936a4ff090b13acdcd21199c4b5a94d3ae7d2f8ea97d249046  DesignStar_Ser
 ChatGPT publish kit:
 
 ```text
-960bddf21cd7e81a76c2bf6f77a0037972c8898a07f3f9f33945e98a841f9bf6  StarDesign_ChatGPT_Publish_Kit_20260728.zip
+0c9653e40483b23edebe94507d069cd1922b48af990b56bcefe7ebc028c5349d  StarDesign_ChatGPT_Publish_Kit_20260728.zip
 ```
 
 ## ThÃ nh pháº§n chÃ­nh
@@ -71,6 +71,7 @@ ChatGPT publish kit:
 - AutoCAD plugin registration/NETLOAD cáº§n test trÃªn mÃ¡y cÃ³ AutoCAD tháº­t.
 - `/jobs/beam` cáº§n Agent Ä‘ang online; náº¿u chÆ°a cÃ³ Agent sáº½ bÃ¡o `AgentNotOnline`.
 - Backend license server chÆ°a ná»‘i; giai Ä‘oáº¡n nÃ y Æ°u tiÃªn local/tunnel demo.
+
 
 
 

@@ -12,9 +12,9 @@
                         },
     "publishKit":  {
                        "fileName":  "StarDesign_ChatGPT_Publish_Kit_20260728.zip",
-                       "sha256":  "960bddf21cd7e81a76c2bf6f77a0037972c8898a07f3f9f33945e98a841f9bf6",
-                       "sizeBytes":  40850640,
-                       "fileCount":  36,
+                       "sha256":  "0c9653e40483b23edebe94507d069cd1922b48af990b56bcefe7ebc028c5349d",
+                       "sizeBytes":  40857710,
+                       "fileCount":  40,
                        "downloadUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728.zip",
                        "checksumUrl":  "https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/StarDesign_ChatGPT_Publish_Kit_20260728_checksum.sha256"
                    },
