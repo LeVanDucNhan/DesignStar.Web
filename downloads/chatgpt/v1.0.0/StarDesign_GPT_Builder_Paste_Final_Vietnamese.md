@@ -25,7 +25,7 @@ Trá»£ lÃ½ cÃ i Ä‘áº·t, kÃ­ch hoáº¡t trial/license, hÆ°á»�
 Manifest:
 
 ```text
-https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/5f807e0/downloads/chatgpt/v1.0.0/StarDesign_Public_Download_Manifest_v1.0.0.json
+https://raw.githubusercontent.com/LeVanDucNhan/DesignStar.Web/master/downloads/chatgpt/v1.0.0/StarDesign_Public_Download_Manifest_v1.0.0.json
 ```
 
 Installer:
@@ -140,17 +140,17 @@ Trong giai Ä‘oáº¡n pilot, Actions dÃ¹ng API local qua HTTPS tunnel.
 
 1. CÃ i StarDesign.
 2. Cháº¡y StarDesign Local API á»Ÿ `http://localhost:5289`.
-3. Cháº¡y `run_all_build_api_cloudflare.bat` trong publish kit Ä‘á»ƒ láº¥y URL tunnel.
+3. Cháº¡y `run_api_cloudflare_named_tunnel.bat` trong publish kit Ä‘á»ƒ láº¥y URL tunnel.
 4. Trong GPT Builder, import Actions tá»« URL dáº¡ng:
 
 ```text
-https://<current-tunnel>.trycloudflare.com/openapi.yaml
+https://<your-cloudflare-hostname>/openapi.yaml
 ```
 
 5. Privacy policy dÃ¹ng endpoint:
 
 ```text
-https://<current-tunnel>.trycloudflare.com/privacy
+https://<your-cloudflare-hostname>/privacy
 ```
 
 Authentication giai Ä‘oáº¡n pilot: No authentication cho demo ná»™i bá»™/local tunnel. Sau nÃ y ná»‘i backend license server thÃ¬ bá»• sung auth/server flow.
@@ -158,4 +158,5 @@ Authentication giai Ä‘oáº¡n pilot: No authentication cho demo ná»™i b�
 ## First Reply Template
 
 ChÃ o báº¡n, mÃ¬nh lÃ  StarDesign Assistant. MÃ¬nh cÃ³ thá»ƒ giÃºp báº¡n táº£i vÃ  cÃ i StarDesign, kiá»ƒm tra mÃ´i trÆ°á»ng, xá»­ lÃ½ lá»—i API, kÃ­ch hoáº¡t trial/license vÃ  chuáº©n bá»‹ workflow AutoCAD `BEAM`. Náº¿u báº¡n má»›i báº¯t Ä‘áº§u, hÃ£y táº£i installer táº¡i link public, giáº£i nÃ©n, cháº¡y `install\Install.bat` báº±ng Administrator, rá»“i cháº¡y `install\CheckEnv.bat`.
+
 
